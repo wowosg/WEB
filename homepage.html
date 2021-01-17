@@ -1,0 +1,539 @@
+﻿<!doctype html>
+<html>
+<head>
+<style>
+.box-2{padding:30px; margin-bottom:10px; text-align:center;}
+.box-2 p{ color:#fff;font-family:'標楷體'; text-align:center;font-size:25px;}
+.box-2{ background:rgba(0,0,0,0.6);margin-bottom:10px;}
+body {font-family: '標楷體'; } 
+p {color:black; }
+
+
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>基隆美食</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="css/styles.css" rel="stylesheet">
+<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="img/Ghost_Emoji.png" rel="shortcut icon">
+
+</head>
+<body class="index" id="to-top">
+
+
+	<audio id="myAudio">
+		<source src="Invisible Beauty - Aakash Gandhi.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+
+<!-- Side nav -->
+<nav class="side-nav" role="navigation">
+
+  <ul class="nav-side-nav">
+	<li> 
+	<div class="dropdown">
+		<button class="dropbtn" onclick="javascript:location.href='#section-1'" style="background-color:#880000;">To-Top</button>
+	</div>
+	</li> 
+	<li> 
+	<div class="dropdown">
+		<button class="dropbtn" onclick="switchBGM()" style="background-color:#880000;width:80px;">bgm</button>
+	</div>
+	</li>
+	<li> 
+	<div class="dropdown">
+		<button class="dropbtn" style="background-color:#880000">仁愛區</button>
+		<div class="dropdown-content">
+			<a href="#section-2">天天鮮排骨飯</a>
+            <a href="#section-3">第34夜-Night 34th</a>
+            <a href="#section-4">神樂岡旭川拉麵</a>
+            <a href="#section-5">天一香 肉羹順</a>
+            <a href="#section-6">海勒牛排館</a>
+            <a href="#section-7">朱添鮮魚號</a>
+            <a href="#section-8">HOMERUN ROASTERS</a>
+            <a href="#section-9">廖媽媽珍珠奶茶專賣鋪</a>
+		</div>
+	</div>
+	</li>
+	<li>
+	<div class="dropdown">
+		<button class="dropbtn " style="background-color:#880000">中正區</button>
+		<div class="dropdown-content">
+			<a href="#section-10">Marlon</a>
+            <a href="#section-11">雅廬韓式料理</a>
+		</div>
+	</div>
+	</li>
+	    <li>
+	        <div class="dropdown">
+		        <button class="dropbtn" style="background-color:#880000">中山區</button>
+		        <div class="dropdown-content">
+                    <a href="#section-12">俞家清魚湯</a>
+		        </div>
+	        </div>
+	    </li>	
+
+  </ul>  
+</nav> <!-- /.side-nav -->
+
+
+
+<!-- mainBanner -->
+<header class="mainBanner" role="banner">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-7 col-sm-7">		
+		<!-- Logo -->
+		<figure>
+		  <a style="visibility: hidden;"href="./index.html">
+			<img class="img-logo" src="images/logo.png" alt="">
+		  </a>
+		</figure> <!-- /.text-center -->		
+		<!-- Title -->
+        <h1 style="color:black; font-family:'標楷體';" class="titletext">Keelung's Delicacy <p style="color:black; font-family:'標楷體';">說明:</br>點選地圖上的大頭針或旁的按鈕即可看到指定內容</br>那就開始吧 !!!</p></h1>
+
+
+		<!-- Button -->
+		<div class="buttons-wrapper">
+				<a href="#section-1" class="button">冒險開始</a>
+			</div>
+			<!-- /.btn-app-store -->
+	  </div> <!-- /.col-md-7 -->
+  
+	</div> <!-- /.row -->	
+  </div> <!-- /.container -->
+</header> <!-- /.mainBanner -->
+
+
+
+
+<!-- Services -->
+<section class="highlights" id="section-1">
+
+  <div class="container">
+      <div class="row">
+          <p id="Introduction" style="font-size:100px; color:#FFFF00; padding-top: 90px;">Choose <img src='img\pin.png' height='150'></br></p>
+          <img src="img\kl.png" height="500">
+          <img id="story1" class="ghost1" src="img\pin.png" height="30" onclick="javascript:location.href='#section-2'"><!-- 天天鮮 -->
+          <img id="story2" class="ghost2" src="img\pin.png" height="30" onclick="javascript:location.href='#section-3'"><!-- 第34夜 -->
+          <img id="story3" class="ghost3" src="img\pin.png" height="30" onclick="javascript:location.href='#section-4'"><!-- 神樂岡旭川拉麵 -->
+          <img id="story4" class="ghost4" src="img\pin.png" height="30" onclick="javascript:location.href='#section-5'"><!-- 天一香 肉羹順-->
+          <img id="story5" class="ghost5" src="img\pin.png" height="30" onclick="javascript:location.href='#section-6'"><!-- 海勒牛排館 -->
+          <img id="story6" class="ghost6" src="img\pin.png" height="30" onclick="javascript:location.href='#section-7'"><!-- 朱添鮮魚號 -->
+          <img id="story7" class="ghost7" src="img\pin.png" height="30" onclick="javascript:location.href='#section-8'"><!-- HOMERUN ROASTERS-->
+          <img id="story8" class="ghost8" src="img\pin.png" height="30" onclick="javascript:location.href='#section-9'"><!-- 廖媽媽珍珠奶茶專賣鋪 -->
+          <img id="story9" class="ghost9" src="img\pin.png" height="30" onclick="javascript:location.href='#section-10'"><!-- Marlon -->
+          <img id="story10" class="ghost10" src="img\pin.png" height="30" onclick="javascript:location.href='#section-11'"><!-- 雅廬 -->
+          <img id="story11" class="ghost11" src="img\pin.png" height="30" onclick="javascript:location.href='#section-12'"><!-- 俞家清魚湯 -->
+
+      </div> <!-- /.row -->
+	
+  </div> <!-- /.container -->
+  
+</section> <!-- /.highlights -->
+
+
+<div class="background_img">     <!-- section2~12的背景 -->
+<!-- Features -->
+<section class="ourFeatures" id="section-2">
+  <div class="container">
+	<div class="row">
+        <div class="col-lg-5 col-md-5 oddimg">
+            <img src="img/天天鮮.jpg" width="500" height="315" alt=""><br />
+            <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.173636094611!2d121.73719841500811!3d25.12981988392755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e142bcff545%3A0xe7f77ca7fcd28b54!2z5aSp5aSp6a6u5o6S6aqo6aOv!5e0!3m2!1szh-TW!2stw!4v1610871013216!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-md-offset-1">
+            <h1 class="box-2" style="color:#FFFFFF">天天鮮排骨飯</h1>
+            <div class="box-2">
+                <!-- Main Points -->
+                <i class="line-font blue icon-shield"></i><!-- Main Point Icon -->
+
+                <p style="color:#FFFFFF">
+                    位於巷弄裡的【天天鮮排骨飯】，
+                    若在平日的晚上前來，這時已經接近店家休息時間了，缺依然還是有人在排隊，內用在外面排隊，外帶則在店內排隊，
+                    店面相當不起眼，如果不是看過介紹或是人家推薦應該很多人都不會想走進來，鄰近基隆火車站及廟口夜市，
+                    必點的排骨蝦仁飯，傳統的炸粉皮，還淋上甜甜的醬汁，加一顆半熟蛋整個超下飯，而且蝦仁量給的相當豪氣，雖然看起來稍油膩，但偶爾吃幸福感破表。
+                </p>
+            </div>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/Sg-FTQ477z0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+	</div>
+  </div>
+</section>
+		
+<section class="ourFeatures" id="section-3">
+  <div class="container" >
+      <div class="row featuresBtm">
+          <div class="col-md-6">
+              
+              <h1 class="box-2" style="color:#FFFFFF">第34夜-Night34th</h1>
+              <br />
+              <div class="box-2">
+                  <p style="color:#FFFFFF">
+                      這家店是我找過最難找的餐廳之一，但是一直以來位置隱密、座位稀少，卻每一次都座無虛席，需要訂位。<br />
+                      第三十四夜義大利麵是年輕老闆開張創立的，搭配高品質的食材，帶給基隆人不同的美食體驗。
+                      特別推薦透抽蒜辣義大利麵有滿滿的烤魷魚味，透抽蒜辣細扁麵有濃郁的碳烤魷魚香味非常推薦，醬汁香又鹹偏濃郁，白酒蛤蠣口味的話是正常發揮，麵身是偏硬的口感，可以調整，所以要提早跟店家說自己喜好的麵條口感喔。<br />
+                      (因為位置實在太難找了，我偶而還是會迷路)
+                  </p>
+              </div>
+              <iframe width="500" height="315" src="https://www.youtube.com/embed/MgFgLqX6Qsc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+          <div class="evenimg">
+              <img src="img/no34.jpg" width="500" height="315" alt=""><br />
+              <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.1953151349994!2d121.73841461474903!3d25.129086783927853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4fc224db4aa7%3A0x2f0a27027c5b54d6!2z56ysMzTlpJwtTmlnaHQgMzR0aA!5e0!3m2!1szh-TW!2stw!4v1610873193715!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+          </div>
+
+      </div>
+	</div> <!-- /.row -->
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-4">
+
+  <div class="container">
+	<div class="row featuresBtm">
+        <div class="col-lg-5 col-md-5 oddimg">
+            <img src="img/神樂岡旭川拉麵.jpg" width="500" height="315" alt="">
+            <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.2008508693784!2d121.7421860150082!3d25.128899583928025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e3e4f87daef%3A0xbc6ab1d1cb285475!2z56We5qiC5bKh5pet5bed5ouJ6bq1!5e0!3m2!1szh-TW!2stw!4v1610874278580!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-md-offset-1">
+            <h1 class="box-2" style="color:#FFFFFF">神樂岡旭川拉麵</h1>
+
+            <div class="box-2">
+                <p style="color:#FFFFFF">
+                    在座位部分有著吧台區及開放式廚房，底下的座位也都相當寬敞舒適，整體的店內給人感覺相當不錯，用餐環境乾淨，裝潢也買漂亮的，
+                    而且他們的菜單上有提供實體對照的圖片，很多的拉麵店沒有這種對照圖，這種小細節對我來說相當的加分，
+                    而這裡的叉燒肉我個人真的覺得相當好吃，，這裡的肉都是用現宰溫體豬當日直送，再透過秘製醬汁去醃製，肉質保有嚼勁及彈性，不會像之前吃過一些拉麵的肉都是軟軟不太好吃，
+                    整體來講在基隆吃拉麵滿推這間的。
+                </p>
+            </div>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/ws3u2TVV9R8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+            
+	</div>
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-5">
+
+  <div class="container">
+	<div class="row featuresBtm">
+        <div class="col-md-6">
+            
+            <h2 class="box-2" style="color:#FFFFFF">天一香肉羹順</h2>
+            <br />
+            <div class="box-2">
+                <p style="color:#FFFFFF">
+                    相信住在基隆的人都聽過且吃過天一香，有時候和朋友去市區唱歌或逛夜市的時候，也會來這邊點一碗滷肉飯和一碗肉羹湯。<br \ />
+                    這家的魯肉飯口味則屬多鹹少甜，細碎瘦肉絲與少許帶肥肉燥，肉羹就很對我味了，外圈薄薄一層太白粉，咬下時有著肉纖維的質感和嚼勁，比預期來得扎實，湯頭則淡爽偏甜、微芡，如果喜歡羹湯甜一點的人，我相信一定會愛不釋手，
+                    <br \ />不過如果會介意用餐環境的人應該比較不會喜歡這家店，畢竟在夜市裡面很難將用餐環境維持得很乾淨，但論口味的話整體而言這家店在我心目中是夜市裡的扛霸子。
+                </p>
+            </div>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/eS4ZM3owIJo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            
+			<div class="evenimg">
+				<img  src="img/天一香.jpg" width="500" height="315" alt="">
+                <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.217655963553!2d121.74107361474901!3d25.128331283928276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e3e19dd262b%3A0x5978419f31c63a2a!2z5aSp5LiA6aaZ6IKJ57656aCG!5e0!3m2!1szh-TW!2stw!4v1610876013632!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+<section class="ourFeatures" id="section-6">
+
+  <div class="container">
+	<div class="row featuresBtm">
+        <div class="col-lg-5 col-md-5 oddimg">
+            <img src="img/海勒牛排館.jpg" width="500" height="315" alt="">
+            <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.18135142857!2d121.73979331474905!3d25.12955898392769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e1585d59535%3A0xff15180e333af4dc!2z5rW35YuS54mb5o6S6aSoL-WfuumahueJm-aOki_ln7rpmobnvo7po58v5Z-66ZqG6aSQ5buzL-WfuumahuW_heWQgy_ln7rpmobnvo7po5_mjqjolqYv5Z-66ZqGcmVzdGF1cmFudHM!5e0!3m2!1szh-TW!2stw!4v1610876788461!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+                <h2 class="box-2" style="color:#FFFFFF">海勒牛排館</h2>
+                <div class="box-2">
+                    <p style="color:#FFFFFF">
+                        這一家我還沒有吃過，但是在網路上看到別人介紹的文章，這家店的肉照片視覺方面扎實讓我有點心動，
+                        聽別人說，肉質方面看起來很硬，卻沒想到入口時意外的軟嫩，味道上除了有醬汁的香味外，咀嚼的時候還可以感受到肉汁。<br \ />
+                        希望下次有機會去吃的時候，不會踩到地雷。
+                    </p>
+
+                </div>			 
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+</section> <!-- /.ourFeatures -->
+
+<section class="ourFeatures" id="section-7">
+
+  <div class="container">
+	<div class="row featuresBtm">
+        <div class="col-md-6">
+            
+            <h2 class="box-2" style="color:#FFFFFF">朱添鮮魚號</h2>
+            <br />
+            <div class="box-2">
+                <p style="color:#FFFFFF">
+                    朱添鮮魚號原本就是賣生魚片，而且已經超過三十年的歷史，就在崁仔頂旁邊一點而已，附近晚上是魚市場，越晚越熱鬧。
+                    座位就是在騎樓上，如果對於環境很要求的人還是不要來好了，因為魚市場的環境沒有維持得很整潔，看起來就是個海鮮攤，幾張桌椅擺在騎樓，旁邊還有人在殺透抽。<br \/>
+                    在點餐的時候是用秤重的方式，所以對於預算有限的人且對重量沒有概念的人，請量力而為，如果點太多的話也許預算會超出你的期望喔。
+                </p>
+            </div>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/weR-fm1eriI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            
+            <div class="evenimg">
+				<img  src="img/朱添鮮魚號.jpg" width="500" height="315" alt="">
+                <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.2261249103!2d121.73902531496036!3d25.1280448839284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e15fb81fa37%3A0x990fc7cb3c5426df!2z5pyx5re76a6u6a2a6Jmf!5e0!3m2!1szh-TW!2stw!4v1610877542007!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-8">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img src="img/homerun roasters.jpg" width="500" height="315" alt="">
+                <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.2371515566065!2d121.74621621474914!3d25.12767198392863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e39315e4c43%3A0x451c381b351447ec!2sHOMERUN%20ROASTERS!5e0!3m2!1szh-TW!2stw!4v1610878527063!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+                <h2 class="box-2" style="color:#FFFFFF">HOMERUN ROASTERS</h2>
+                <div class="box-2">
+                    <p style="color:#FFFFFF">
+                        忙碌的工作之餘，周末假日袁彬愛到市區的咖啡廳喝杯咖啡，悠閒放鬆一下。
+                        基隆熱門咖啡廳，工業風簡約布置及裝潢，是網美必訪必拍打卡點，包括食尚玩家、ETtoday都曾報導過，此外，也是寵物友善餐廳，帶著自己的毛小孩來逛街時路過也可以進到店裡面輕鬆品飲咖啡。
+                        面對疫情，他們也做足準備，除了有提供酒精噴手消毒，每天三次以上全店消毒清潔，如果用餐人數多，服務人員還會安排用餐位置，以保持社交距離, 更重要的是店內服務人員與廚師都有進行旅遊史管理。
+                        <br />(這家店我也還沒有來過，本身比較少去咖啡廳，不過如果你的身邊有曖昧的女生，也許來這邊一起喝咖啡聊天是個不錯的選擇呢)
+                    </p>
+				</div>
+                <iframe width="500" height="315" src="https://www.youtube.com/embed/_NS9uXXDMRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+</section> <!-- /.ourFeatures -->
+
+
+
+<section class="ourFeatures" id="section-9">
+
+  <div class="container">
+	<div class="row featuresBtm">
+        <div class="col-md-6">
+            
+            <h2 class="box-2" style="color:#FFFFFF">廖媽媽珍珠奶茶專賣鋪</h2>
+            <div class="box-2">
+                <br />
+                <p style="color:#FFFFFF">
+                    廖媽媽的珍珠奶茶除了基隆在地有名，更是受到學生族群們的喜愛。
+                    位在孝三路上，但很特別的是居然是隱身在二樓處，喝過這麼多飲品店，第一次看到是在二樓，真的滿特別的。<br />
+                    廖媽媽不是只有賣飲料類，在旁邊也有燒仙草和傳統手工豆花，而且所看到的配料全是廖媽媽自己熬煮的，完全不添加防腐劑，吃的也安心。
+                    燒仙草的部份，一杯40元，但料不限可以隨你加到滿，聽起來是不是cp值很高呢。
+                </p>
+            </div>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/o_3N3fdAeJ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            
+			<div class="evenimg">
+				<img  src="img/廖媽媽珍珠奶茶專賣鋪.jpg" width="500" height="315" alt="">
+                <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.1442467582!2d121.73784331496047!3d25.130813683927087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e1506626241%3A0x716727da0a947eaa!2z5buW5aq95aq954-N54-g5aW26Iy25bCI6LOj6Yuq!5e0!3m2!1szh-TW!2stw!4v1610879231775!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+<section class="ourFeatures" id="section-10">
+
+  <div class="container">
+	<div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/marlon.jpg" width="500" height="315" alt="">
+			</div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+                <h2 class="box-2" style="color:#FFFFFF">Marlon</h2>
+                <div class="box-2">
+                    <p style="color:#FFFFFF">
+                        店家說，咖哩走日式風格，使用各種辛香料慢火熬煮3天3夜，香氣濃郁、口感溫潤。
+                        餐點太陽咖哩搭配烤雞腿，一上桌濃郁香氣撲鼻，咖哩醬溫帶有微微辛辣感，烤雞腿外皮金黃酥脆，肉質細嫩多汁，一旁的荷包蛋汁包覆米粒，令人一口接一口。
+                        另外，經典手做花生牛肉堡，店家選用厚實安格斯牛肉，建議七分熟最佳，外皮鎖住濃郁肉汁，上方抹上濃濃的花生醬，搭配起司、生菜，大口咬下令人直呼過癮。
+                    </p>
+                </div>
+                <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.989865402651!2d121.78626491474917!3d25.13603348392468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4f989a06fe29%3A0xe1a5a01836569fe7!2sMarlon!5e0!3m2!1szh-TW!2stw!4v1610871111106!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+            
+	</div>
+
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+<section class="ourFeatures" id="section-11">
+
+  <div class="container">
+	<div class="row featuresBtm">
+        <div class="col-md-6">
+            
+            <h2 class="box-2" style="color:#FFFFFF">雅廬韓式料理</h2>
+            <br />
+            <div class="box-2">
+                <p style="color:#FFFFFF">
+                    相信只要是身為海洋大學的同學都對這間餐廳不陌生，位在男二宿舍後山的山坡上，有一家連招牌都沒有的隱密餐廳，卻常常在用餐時段時，充滿著人潮。<br \ />
+                    當時剛入學的時候，是一位寢室內的學長帶我去吃的，真的十分的神祕，平時就算一直從宿舍往來系館也沒有察覺到旁邊竟然有一家平價韓式料理店，
+                    也因為老闆的手藝出眾且料理價格平易近人(雖然現在有不斷地在漲價...)，特別是他的辣雞飯，若晚一點點來的時候常常就售完了，他的嗶嗶飯也十分的好吃，
+                    不過它的分量算大，食量小的人有可能會吃不完喔。
+                </p>
+            </div>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/1F3NEVYMZSo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            
+			<div class="evenimg">
+				<img  src="img/雅廬.jpg" width="500" height="315" alt="">
+                <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.643624329222!2d121.77707231496075!3d25.147736583919112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4f08ff96c207%3A0x6f701aab77d6c8df!2z6ZuF5bus6Z-T5byP5paZ55CG!5e0!3m2!1szh-TW!2stw!4v1610881371600!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>			
+            </div>
+	</div>
+
+  </div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+
+<section class="ourFeatures" id="section-12">
+
+  <div class="container">
+	    <div class="row featuresBtm">
+			<div class="col-lg-5 col-md-5 oddimg">
+				<img  src="img/俞家清魚湯.jpg" width="500" height="315" alt="">
+                <iframe width="500" height="315" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28893.149242085412!2d121.76175136712052!3d25.147735538649822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4e5c1b95521f%3A0x7d3836f289eb5082!2z5L-e5a625riF6a2a5rmv!5e0!3m2!1szh-TW!2stw!4v1610882097504!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>			
+            </div>
+			<div class="col-lg-6 col-md-6 col-md-offset-1">
+                <h2 class="box-2" style="color:#FFFFFF">俞家清魚湯<</h2>
+                <div class="box-2">
+                    <p style="color:#FFFFFF">
+                        俞家清魚湯是超人氣宵夜早餐美食，它的營業時間比較特殊，從凌晨一點半開始營業直到賣完為止，以前記得是三點才開門，而且每次還沒營業時過去就已經看到長長的一排人龍，
+                        他的交通位置在偏遠的西岸碼頭靠進仙洞巖附近，這裡算是比較偏僻一點的地方，排隊的人們也證明了真的是相當受歡迎才辦的到！
+                    </p>
+                </div>		
+			 
+			</div>
+        </div>
+            
+	    
+  </div>
+
+	</div> <!-- /.row -->
+
+</section> <!-- /.ourFeatures -->
+
+</div>
+
+
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="story.js"></script>
+
+<script>		
+$(document).ready(function()					//初始
+{
+	
+	$("#story1").mouseover(function(){$("#story1").attr("src","img/pin_click.png");genstory(1)});
+	$("#story1").mouseout(function(){$("#story1").attr("src","img/pin.png");clean()});
+
+									
+    $("#story2").mouseover(function () { $("#story2").attr("src","img/pin_click.png");genstory(2)});
+    $("#story2").mouseout(function () { $("#story2").attr("src","img/pin.png");clean()});
+
+
+    $("#story3").mouseover(function () { $("#story3").attr("src","img/pin_click.png");genstory(3)});
+    $("#story3").mouseout(function () { $("#story3").attr("src","img/pin.png");clean()});
+
+
+    $("#story4").mouseover(function () { $("#story4").attr("src","img/pin_click.png");genstory(4)});
+    $("#story4").mouseout(function () { $("#story4").attr("src","img/pin.png");clean()});
+
+    
+    $("#story5").mouseover(function () { $("#story5").attr("src","img/pin_click.png");genstory(5)});
+    $("#story5").mouseout(function () { $("#story5").attr("src","img/pin.png");clean()});
+
+
+    $("#story6").mouseover(function () { $("#story6").attr("src","img/pin_click.png");genstory(6)});
+    $("#story6").mouseout(function () { $("#story6").attr("src","img/pin.png");clean()});
+
+
+    $("#story7").mouseover(function () { $("#story7").attr("src","img/pin_click.png");genstory(7)});
+    $("#story7").mouseout(function () { $("#story7").attr("src","img/pin.png");clean()});
+
+
+    $("#story8").mouseover(function () { $("#story8").attr("src","img/pin_click.png");genstory(8)});
+    $("#story8").mouseout(function () { $("#story8").attr("src","img/pin.png");clean()});
+
+    
+    $("#story9").mouseover(function () { $("#story9").attr("src","img/pin_click.png");genstory(9)});
+    $("#story9").mouseout(function () { $("#story9").attr("src","img/pin.png");clean()});
+
+
+    $("#story10").mouseover(function () { $("#story10").attr("src","img/pin_click.png");genstory(10)});
+    $("#story10").mouseout(function () { $("#story10").attr("src","img/pin.png");clean()});
+
+
+    $("#story11").mouseover(function () { $("#story11").attr("src","img/pin_click.png");genstory(11)});
+    $("#story11").mouseout(function () { $("#story11").attr("src","img/pin.png");clean()});
+
+    
+    $("#story12").mouseover(function () { $("#story12").attr("src","img/pin_click.png");genstory(12)});
+    $("#story12").mouseout(function () { $("#story12").attr("src","img/pin.png");clean()});
+
+    
+    
+	var playflag;
+	function switchBGM(){
+		var x = document.getElementById("myAudio"); 
+		x.loop=true; 			//循環播放
+		if(playflag==0){
+			x.play();
+			playflag=1;
+		}
+		else{
+			x.pause();
+			playflag=0;
+		}
+	}    
+									
+});
+
+
+</script>
+</body>
+</html>
