@@ -107,8 +107,8 @@ padding-top: 100px;
 padding-bottom: 100px;
 }
 .background_img{
-    background-image: url("../ground/wood.png"),
-					  url("../ground/wood.png");
+    background-image: url("../ground/wood.jpg"),
+					  url("../ground/wood.jpg");
     background-repeat: no-repeat,
 					   no-repeat;
     background-attachment: fixed,
@@ -127,7 +127,7 @@ color: white;
 background:#003664;
 background-size: cover;
 text-align: center;
-background:url(../ground/keelung.png) top no-repeat;
+background:url(../ground/keelung.jpg) top no-repeat;
 background-color:black;
 background-size:100% 100%; 
 } 	
@@ -178,7 +178,7 @@ width: 505px;
 height: auto;
 }
 .highlights {
-  background-image: url("../ground/background.png");
+  background-image: url("../ground/background.jpg");
   background-size:100% 100%;
  
   text-align: center;
@@ -354,72 +354,72 @@ width: 100%;
 .ghost1{
   position:absolute;
   right:860px;
-  top:950px;
+  top:890px;
   z-index:1;
 }
 
 .ghost2{
   position:absolute;
   right:835px;
-  top:950px;
+  top:890px;
   z-index:1;
 }
 .ghost3{
   position:absolute;
   right:860px;
-  top:976px;
+  top:916px;
   z-index:1;
 }
 
 .ghost4{
   position:absolute;
   right:835px;
-  top:976px;
+  top:916px;
   z-index:1;
 }
 .ghost5{
   position:absolute;
   right:810px;
-  top:976px;
+  top:916px;
   z-index:1;
 }
 
 .ghost6{
   position:absolute;
   right:860px;
-  top:1000px;
+  top:940px;
   z-index:1;
 }
 .ghost7{
   position:absolute;
   right:835px;
-  top:1000px;
+  top:940px;
   z-index:1;
 }
 
 .ghost8{
   position:absolute;
   right:810px;
-  top:1000px;
+  top:940px;
   z-index:1;
 }
 .ghost9{
   position:absolute;
   right:720px;
-  top:870px;
+  top:810px;
   z-index:1;
 }
 
 .ghost10{
   position:absolute;
   right:730px;
-  top:850px;
+  top:790px;
   z-index:1;
 }
 .ghost11{
   position:absolute;
   right:830px;
-  top:870px;
+  top:810px;
   z-index:1;
 }
 
